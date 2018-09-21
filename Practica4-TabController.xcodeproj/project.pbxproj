@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6A90DE222151E0DC001706D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90DE212151E0DC001706D8 /* AppDelegate.swift */; };
-		6A90DE242151E0DC001706D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90DE232151E0DC001706D8 /* ViewController.swift */; };
+		6A90DE242151E0DC001706D8 /* Lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90DE232151E0DC001706D8 /* Lista.swift */; };
 		6A90DE272151E0DC001706D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A90DE252151E0DC001706D8 /* Main.storyboard */; };
 		6A90DE292151E0E4001706D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A90DE282151E0E4001706D8 /* Assets.xcassets */; };
 		6A90DE2C2151E0E4001706D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A90DE2A2151E0E4001706D8 /* LaunchScreen.storyboard */; };
 		6A90DE372151E0E5001706D8 /* Practica4_TabControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90DE362151E0E5001706D8 /* Practica4_TabControllerTests.swift */; };
 		6A90DE422151E0E5001706D8 /* Practica4_TabControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90DE412151E0E5001706D8 /* Practica4_TabControllerUITests.swift */; };
+		6A90DE502151E1B8001706D8 /* Formulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A90DE4F2151E1B8001706D8 /* Formulario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		6A90DE1E2151E0DC001706D8 /* Practica4-TabController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica4-TabController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A90DE212151E0DC001706D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A90DE232151E0DC001706D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A90DE232151E0DC001706D8 /* Lista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista.swift; sourceTree = "<group>"; };
 		6A90DE262151E0DC001706D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A90DE282151E0E4001706D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A90DE2B2151E0E4001706D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		6A90DE3D2151E0E5001706D8 /* Practica4-TabControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica4-TabControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A90DE412151E0E5001706D8 /* Practica4_TabControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica4_TabControllerUITests.swift; sourceTree = "<group>"; };
 		6A90DE432151E0E5001706D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A90DE4F2151E1B8001706D8 /* Formulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formulario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				6A90DE212151E0DC001706D8 /* AppDelegate.swift */,
-				6A90DE232151E0DC001706D8 /* ViewController.swift */,
+				6A90DE232151E0DC001706D8 /* Lista.swift */,
+				6A90DE4F2151E1B8001706D8 /* Formulario.swift */,
 				6A90DE252151E0DC001706D8 /* Main.storyboard */,
 				6A90DE282151E0E4001706D8 /* Assets.xcassets */,
 				6A90DE2A2151E0E4001706D8 /* LaunchScreen.storyboard */,
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A90DE242151E0DC001706D8 /* ViewController.swift in Sources */,
+				6A90DE502151E1B8001706D8 /* Formulario.swift in Sources */,
+				6A90DE242151E0DC001706D8 /* Lista.swift in Sources */,
 				6A90DE222151E0DC001706D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
